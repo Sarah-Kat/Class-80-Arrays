@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+ <html> 
+     <head> 
+         <title>C79</title> 
+         <link rel="stylesheet" type="text/css" href="style.css"> 
+         <script src="main.js"></script> 
+        </head> 
+    <body>
+        <center>
+            <h3 style = "margin-top: 20p; margin-bottom: 20px;">
+                List of kids in my class
+            </h3>
+
+            <div>
+                <span>1</span>
+                <input type = "text" placeholder = "Name Of Student" id = "name_of_student_1">
+                <br>
+                <span>2</span>
+                <input type = "text" placeholder = "Name Of Student" id = "name_of_student_2">
+                <br>
+                <span>3</span>
+                <input type = "text" placeholder = "Name Of Student" id = "name_of_student_3">
+                <br>
+                <span>4</span>
+                <input type = "text" placeholder = "Name Of Student" id = "name_of_student_4">
+                <br>
+            </div>
+
+            <button id = "SubmitButton" onclick = "submit()">
+                Submit
+            </button>
+
+            <div id = "display_name_with_commas"></div>
+            <div id = "display_name_without_commas"></div>
+
+            <button id = "SortButton" onclick="sorting()">
+                Sort
+            </button>
+
+            <br>
+            <button id="new_update" onclick = "new_update()">New Update</button>
+
+
+        </center>
+    </body>
+    </html>
